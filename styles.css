@@ -1,33 +1,41 @@
 *{
     margin:0;
+    font-family: Roboto Condensed;
 }
 
 .bg{
 z-index:-4;
 position:fixed;
+backdrop-filter: blur(20px);
 }
 
 header{
     z-index:5;
+    position: fixed;
     display:flex;
+    top: 0;
+    left: 0;
+     width: 100%;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    background-color: rgba(40, 40, 40, 0.351);
+    background-color: rgba(40, 40, 40, 0.898);
     backdrop-filter: blur(20px);
 
 }
 
 .logo{
-    background-color: rgba(79, 78, 78, 0.351);
+    background-color: rgba(139, 139, 139, 0.259);
     backdrop-filter: blur(50px);
     color: #fff;
+    width:500px;
 }
 
 .headerLinks{
     margin-left: 60px;
     display:flex;
     flex-direction: row;
-    column-gap: 30px;
+    column-gap: 20px;
     font-size: 19px;
     color:white;
 }
@@ -36,10 +44,17 @@ header{
     font-size:30px
 }
 
+.content {
+    margin-top: 147px; /* Adjust this value based on your header height */
+    z-index:3;
+}
 .title{
     color:white;
+    font-size: 70px;
     display:flex;
     justify-content: center ;
+    margin-top:500px;
+    margin:100px;
 }
 
 .firstpart{
@@ -50,6 +65,99 @@ header{
 .descOfCrypto{
     color:white;
     display:flex;
-    width: 60%;
     align-items: center;
+    
+}
+
+.descBG{
+    background-color: rgba(40, 40, 40, 0.705);
+    backdrop-filter: blur(20px);
+}
+
+.HomeButton{
+    color:white;
+    font-size: 20px;
+    background-color: #4b4b4b76;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 300px;
+    height:50px;
+}
+
+.firstButton{
+    background-color: #414141;
+}
+
+.newsletter{
+    background-color: rgba(40, 40, 40, 0.705);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+
+.TheCryptoFive{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:700px;
+    row-gap: 10px;
+    font-size: 16px;
+}
+
+.subscribeInput{
+    width: 400px;
+}
+
+.joinButton{
+    color:white;
+}
+
+.subscribe{
+    display:flex;
+    column-gap: 20px;
+}
+
+.secondPart{
+    color:white;
+    background-color: rgba(40, 40, 40, 0.705);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tutPart{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+    background-color: #4b4b4b76;
+    backdrop-filter: blur(10px);
+}
+
+.tutButton{
+    background-color: rgb(40, 40, 40);
+    font-size: 65px;
+    
+}
+
+footer{
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+    background-color: rgb(40, 40, 40);
 }
