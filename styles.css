@@ -24,6 +24,11 @@ header{
 
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .logo{
     background-color: rgba(139, 139, 139, 0.259);
     backdrop-filter: blur(50px);
