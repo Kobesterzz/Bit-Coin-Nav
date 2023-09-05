@@ -3,6 +3,14 @@
     font-family: Roboto Condensed;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Use min-height instead of height */
+}
+
 header{
     z-index:5;
     position: fixed;
@@ -43,6 +51,10 @@ a{
     font-size:30px
 }
 
+.bold{
+    font-size: larger;
+}
+
 .content {
     margin-top: 147px; /* Adjust this value based on your header height */
     z-index:3;
@@ -56,8 +68,14 @@ a{
 .info{
     display: flex;
     font-size: 15px;
+    max-width: 1000px;
 }
 
 .title{
     font-size: 50px;
+    margin-top: 50px;
+}
+
+.center-container {
+    text-align: center;
 }
