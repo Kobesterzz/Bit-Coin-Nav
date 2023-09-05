@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    font-family: Roboto Condensed;
+}
+
 header{
     z-index:5;
     position: fixed;
@@ -50,4 +55,9 @@ a{
 
 .info{
     display: flex;
+    font-size: 15px;
+}
+
+.title{
+    font-size: 50px;
 }
