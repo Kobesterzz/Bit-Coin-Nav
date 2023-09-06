@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh; /* Use min-height instead of height */
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
 }
 
 header{
@@ -27,10 +27,45 @@ header{
 
 }
 
+.sidebar {
+    position: fixed;
+    top: 50%; /* Vertically center the sidebar */
+    right: 0;
+    transform: translateY(-50%); /* Adjust to vertically center the sidebar */
+    width: 200px; /* Adjust the width as needed */
+    background-color: #3333338b;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    z-index: 4; /* Above content but below header */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the sidebar items horizontally */
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.sidebar-item.highlighted {
+    font-weight: bold;
+    color: aquamarine;
+    /* Add any other highlighting styles you want */
+}
+
 a{
     text-decoration: none;
-    color: white;
+    color: #fff;
+    
 }
+
+
 
 .logo{
     background-color: rgba(139, 139, 139, 0.259);
@@ -59,6 +94,7 @@ a{
 .content {
     margin-top: 147px; /* Adjust this value based on your header height */
     z-index:3;
+    position: relative;
 }
 
 .Introduction{
@@ -75,7 +111,7 @@ a{
 .title{
     font-size: 50px;
     margin-top: 50px;
-    background-color: rgba(50, 50, 50, 0.476);
+    background-color: rgba(35, 35, 35, 0.476);
 }
 
 .center-container {
