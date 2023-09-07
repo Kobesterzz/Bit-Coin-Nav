@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    font-family: Roboto Condensed;
+}
+
+.content {
+    margin-top: 155px; /* Adjust this value based on your header height */
+    z-index:3;
+    position: relative;
+}
+
+header{
+    z-index:5;
+    position: fixed;
+    display:flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(40, 40, 40, 0.898);
+    backdrop-filter: blur(20px);
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.logo{
+    background-color: rgba(139, 139, 139, 0.259);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    width:500px;
+}
+
+.headerLinks{
+    margin-left: 60px;
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+    font-size: 19px;
+    color:white;
+}
+
+.seperator{
+    font-size:30px
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.title{
+    font-size:65px;
+}
+
+.bottom{
+    margin-top:60px;
+    padding:20px;
+    color:#ffffff;
+    display:flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgb(49, 49, 49);
+}
+
+.platforms{
+    border:4px solid rgb(0, 0, 75);
+    height: 120px;
+    margin-left:13%;
+    margin-right: 13%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 35px;
+    font-size: 14px;
+}
+
+.buttonsAndBounus{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonus{
+    font-size:23px;
+}
+
+button{
+    background-color: rgb(93, 93, 255);
+    border:none;
+    height: 30px;
+    width: 110px
+}
+
+.buttons{
+    display:flex;
+    column-gap: 10px;
+}
+
+.bityardImg{
+    margin-right:100px;
+}
