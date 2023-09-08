@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    font-family: Roboto Condensed;
+}
+
+.content {
+    margin-top: 155px; /* Adjust this value based on your header height */
+    z-index:3;
+    position: relative;
+}
+
+header{
+    z-index:5;
+    position: fixed;
+    display:flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(40, 40, 40, 0.898);
+    backdrop-filter: blur(20px);
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.logo{
+    background-color: rgba(139, 139, 139, 0.259);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    width:500px;
+}
+
+.headerLinks{
+    margin-left: 60px;
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+    font-size: 19px;
+    color:white;
+}
+
+.seperator{
+    font-size:30px
+}
+
+.clockPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.understanding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    background-color: rgb(38, 43, 53);
+}
+
+h2{
+    font-size: 20px;
+}
+
+.buyAndsell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color:  rgb(38, 43, 53);
+    color:white;
+    border:none;
+    height:60px;
+    width:130px
+}
+
+.buttons{
+    display: flex;
+    column-gap: 150px;
+}
