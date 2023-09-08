@@ -74,12 +74,12 @@ a{
 .platforms{
     border:4px solid rgb(0, 0, 75);
     height: 120px;
-    margin-left:13%;
-    margin-right: 13%;
+    margin-left:11%;
+    margin-right: 11%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    column-gap: 35px;
+    column-gap: 30px;
     font-size: 14px;
 }
 
