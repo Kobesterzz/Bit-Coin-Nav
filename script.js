@@ -17,7 +17,7 @@ const updateCountdown = () => {
        const minutes = Math.floor((timeRemaning % (1000 * 60 * 60 )) / (1000 * 60)); 
        const seconds = Math.floor((timeRemaning % (1000 * 60)) / 1000); 
 
-       countdown.innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';
+       countdown.innerHTML = days + ' Date ' + hours + ' Hours ' + minutes + ' Minutes ' + seconds + ' Seconds';
     }
 }
 
