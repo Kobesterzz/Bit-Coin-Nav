@@ -56,6 +56,7 @@ a{
     border:4px solid rgb(0, 0, 75);
     height: 320px;
     width:350px;
+    margin: 10px;
 }
 
 .yes{
@@ -67,11 +68,12 @@ a{
 }
 
 .trading-platforms{
-display:flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-column-gap: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Add this property to wrap items onto new rows */
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start of each row */
+    gap: 30px;
+    background-color: rgb(80, 80, 80);
 }
 
 .fee{
@@ -116,7 +118,7 @@ column-gap: 30px;
 }
 
 button{
-    background-color: rgb(93, 93, 255);
+    background-color: rgb(0, 121, 190);
     border:none;
     height: 30px;
     width: 110px
@@ -125,4 +127,11 @@ button{
 .buttons{
     display:flex;
     column-gap: 10px;
+}
+
+.advice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
