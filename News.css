@@ -3,7 +3,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.background {
+.bg{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -59,7 +59,7 @@ a {
 .seperator {
     font-size: 30px;
 }
-`
+
 .content {
     margin-top: 100px; /* Adjust margin to match header height */
     z-index: 3;
