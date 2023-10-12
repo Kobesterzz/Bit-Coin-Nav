@@ -29,6 +29,15 @@ a{
     color: white;
 }
 
+a:hover{
+    color: rgb(133, 133, 255);
+    transition: 1s;
+}
+
+a:active{
+    color: rgb(133, 133, 255);
+}
+
 .logo{
     background-color: rgba(139, 139, 139, 0.259);
     backdrop-filter: blur(50px);
