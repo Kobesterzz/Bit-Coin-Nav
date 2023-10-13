@@ -77,11 +77,25 @@ a:active{
 .main {
     height:100vh; /* Adjust for header height */
     width: 60vw;
+    padding-top:110px;
+    padding-left:25px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-left: 20%;
     background-color: rgba(0, 0, 0, 0.599);
     top: 0;
     left: 0;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    background-color: rgba(240, 248, 255, 0.425);
+    backdrop-filter: blur(10px);
+    width: 100px;
+    height:50px;
+    border-radius: 15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
